@@ -134,11 +134,11 @@ mm.add("(max-width: 768px)", () => {
 
     mtl.to("#contain-nav", {
         right: 0,
-        duration: 0.5
+        duration: 0.4
     })
 
     mtl.from(".nav-prt a", {
-        duration: 0.76,
+        duration: 0.3,
         x: 150,
         stagger: 0.2,
         opacity: 0
