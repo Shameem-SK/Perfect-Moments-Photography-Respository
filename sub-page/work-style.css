@@ -482,8 +482,8 @@ body.no-scroll {
     .bar {
         display: -ms-grid;
         display: grid;
-        -ms-grid-columns: 15vw 20px 15vw 20px 15vw;
-        grid-template-columns: repeat(3, 15vw);
+        -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+        grid-template-columns: repeat(3, 1fr);
         -ms-grid-rows: 1fr 20px 1fr;
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 20px;
@@ -491,14 +491,8 @@ body.no-scroll {
         text-align: center;
     }
 
-    .bar a:hover::before {
-        -webkit-transform: scale(0);
-        -ms-transform: scale(0);
-        transform: scale(0);
-    }
-
     .bar a:hover {
-        color: #fff;
+        box-shadow: none;
     }
 
     .box {
@@ -506,7 +500,7 @@ body.no-scroll {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .full-scr{
+    .full-scr {
         top: 1.5vh;
         height: 90vh;
     }
@@ -536,7 +530,7 @@ body.no-scroll {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .full-scr{
+    .full-scr {
         height: 85vh;
     }
 
