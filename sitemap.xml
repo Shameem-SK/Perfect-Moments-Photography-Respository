@@ -7,20 +7,23 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
   <url>
-    <loc>https://perfectmomentsphotography.in/sub-page/about.html</loc>
+    <loc>https://perfectmomentsphotography.in/about.html</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://perfectmomentsphotography.in/sub-page/work.html</loc>
+    <loc>https://perfectmomentsphotography.in/work.html</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
   <url>
-    <loc>https://perfectmomentsphotography.in/sub-page/contact.html</loc>
+    <loc>https://perfectmomentsphotography.in/contact.html</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
