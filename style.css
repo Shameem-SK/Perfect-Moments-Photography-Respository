@@ -542,6 +542,7 @@ main {
     -webkit-transition: opacity 0.3s;
     -o-transition: opacity 0.3s;
     transition: opacity 0.3s;
+    font-size: clamp(0.7rem, 2.5vw, 1.15rem);
 }
 
 .p3-card:hover h5 {
@@ -623,6 +624,14 @@ footer p {
 .f-prt3 h5 a {
     text-decoration: none;
     color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .p3-container .p3-card {
+        height: auto;
+    }
+
 }
 
 
@@ -794,6 +803,7 @@ footer p {
 
     .p3-card .p3-elem2 h5 {
         opacity: 1;
+        font-weight: 300;
     }
 
     footer p {
