@@ -194,7 +194,7 @@ let data = {
 const addImg = (category, count) => {
     for (let i = 1; i <= count; i++) {
         data[category].push({
-            "src": `../images/${category} (${i}).jpg`
+            "src": `images/${category} (${i}).jpg`
         });
     }
 };
